@@ -10,7 +10,7 @@ Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 ## Introduction of the repository
 
-This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled [*A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers*](A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers).
+This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled [A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers](A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers).
 
 In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes and plays crucial roles in blood cancers. There are three significant advances:
 
