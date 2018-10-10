@@ -94,7 +94,7 @@ Please see  `GANreproduce Quick Start Guide.pdf`  for more details of the GAN (g
 
 ## Interpretation of code files CODEinGAN
 
-`logrankLF.m` generates log-rank test by package of [Fan Lin](www.mathworks.com/matlabcentral/fileexchange/20388).
+`logrankLF.m` generates log-rank test by package of [Fan Lin](https://www.mathworks.com/matlabcentral/fileexchange/20388).
 
 `LT3X2Ana.m` generates consistent linear trend analysis for the motif. 
 
