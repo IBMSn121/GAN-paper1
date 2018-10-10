@@ -15,7 +15,7 @@ This repository contains the raw data and matlab codes to reproduce the results 
 A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
 ```
 
-In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes and plays crucial roles in blood cancers. There are three significant advances:
+In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes that play crucial roles in blood cancers. There are three significant advances:
 
 ```
 1. This motif was largely consistent across five different transcriptomic datasets.
