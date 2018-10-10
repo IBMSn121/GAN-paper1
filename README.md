@@ -11,7 +11,7 @@ Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 ## Introduction of the repository
 
 This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled 
-```
+```python
 A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
 ```
 
@@ -31,8 +31,8 @@ According to these findings, we can conduct multiple blood cancer prognosis and 
 
 Note that an installed matlab program is a must for the following steps.
 
-```
-`Step1` Download the two files, CODEinGAN and DATAinGAN, and put them in C:\
+```javascript
+Step1 Download the two files, CODEinGAN and DATAinGAN, and put them in C:\
 
 `Step2` Open matlab program window and type *cd 'C:\CODEinGAN'* in it
 
