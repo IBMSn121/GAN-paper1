@@ -10,9 +10,9 @@ Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 ## Introduction of the repository
 
-This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled 
+This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled: 
 ```python
-A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
+[A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers].
 ```
 
 In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes and plays crucial roles in blood cancers. There are three significant advances:
@@ -32,11 +32,11 @@ According to these findings, we can conduct multiple blood cancer prognosis and 
 Note that an installed matlab program is a must for the following steps.
 
 ```javascript
-Step1 Download the two files, CODEinGAN and DATAinGAN, and put them in C:\
+[Step1] Download the two files, CODEinGAN and DATAinGAN, and put them in C:\
 
-`Step2` Open matlab program window and type *cd 'C:\CODEinGAN'* in it
+[Step2] Open matlab program window and type *cd 'C:\CODEinGAN'* in it
 
-`Step3` Type *GANreproduce* in matlab window and select dialog boxes for reproducing
+[Step3] Type *GANreproduce* in matlab window and select dialog boxes for reproducing
 ```
 
 Please see *GANreproduce Quick Start Guide.pdf* for more details.
