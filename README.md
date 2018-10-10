@@ -1,12 +1,12 @@
 # A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers
 
-Wei-Quan Fang\*, Walt Yu-Le Wu?, Ming-Jing Hwang\*
+Wei-Quan Fang\*, Walt Yu-Le Wu†, Ming-Jing Hwang\*
  
 Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 \*Corresponding authors. 
 
-?Present address: European Molecular Biology Laboratory, Heidelberg, Germany.
+†Present address: European Molecular Biology Laboratory, Heidelberg, Germany.
 
 ## Introduction of the repository
 
