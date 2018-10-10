@@ -1,12 +1,12 @@
 # A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers
 
-Wei-Quan Fang\*, Walt Yu-Le Wu†, Ming-Jing Hwang\*
+Wei-Quan Fang\*, Walt Yu-Le Wu?, Ming-Jing Hwang\*
  
 Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 \*Corresponding authors. 
 
-†Present address: European Molecular Biology Laboratory, Heidelberg, Germany.
+?Present address: European Molecular Biology Laboratory, Heidelberg, Germany.
 
 ## Introduction of the repository
 
@@ -65,12 +65,71 @@ Please see  `GANreproduce Quick Start Guide.pdf`  for more details of the GAN (g
 
 `ltaUS5gnD60` is about up-stream genes of GAN used in GSE60 for linear trend analysis.
 
+`sDLBCL1` contains clinical survival and trio's expression data in GSE4475 (DLBLC).
+
+`sDLBCL2` contains clinical survival and trio's expression data in GSE32918 (DLBLC).
+
+`sDLBCL3` contains clinical survival and trio's expression data in GSE31312 (DLBLC).
+
+`sDLBCL4` contains clinical survival and trio's expression data in GSE10846 (DLBLC).
+
+`sOSBC2a` contains clinical survival and trio's expression data in GSE16131 (FL).
+
+`sOSBC2b` contains clinical survival and trio's expression data in GSE66166 (FL).
+
+`sOSBC3a` contains clinical survival and trio's expression data in GSE9782 (MM).
+
+`sOSBC3b` contains clinical survival and trio's expression data in GSE24080 (MM).
+
+`sOSBC4` contains clinical survival and trio's expression data in GSE22762 (CLL).
+
+`sOSBC5` contains clinical survival and trio's expression data in Rosenwald (MCL).
+
+`sOSBC6a` contains clinical survival and trio's expression data in TCGA (AML).
+
+`sOSBC6b` contains clinical survival and trio's expression data in GSE12417 (AML).
+
+`sOSBC7` contains clinical survival and trio's expression data in TARGET (ALL).
+
 
 ## Interpretation of code files CODEinGAN
 
-`logrankLF.m`
+`logrankLF.m` generates log-rank test by package of [Fan Lin](www.mathworks.com/matlabcentral/fileexchange/20388).
 
-`LT3X2Ana.m`
+`LT3X2Ana.m` generates consistent linear trend analysis for the motif. 
+
+`realAna` generates real data analysis for the AWTE-induced GAN.
+
+`regAWTE` returns regression model fitting by AWTE method.
+
+`regLasso1` returns regression model fitting by LASSO method.
+
+`rrHKB` returns regression model fitting by RR method.
+
+`simuAna` generates simulated data analysis for four different methods.
+
+`simuAwAna` generates simulated data analysis for robustness of AWTE method.
+
+`survBAna1` generates clinical controversy for BACH2's role.
+
+`survBAna2` generates BACH2 higher and survival better in patients with lower SPIB expression.
+
+`survBAna3` generates BACH2 higher and survival worse in patients with higher SPIB expression.
+
+`survTAna1` produces distinguishable survival prognosis for the trio in DLBCL.
+
+`survTAna2` produces distinguishable survival prognosis for the trio in FL.
+
+`survTAna3` produces distinguishable survival prognosis for the trio in MM.
+
+`survTAna4` produces distinguishable survival prognosis for the trio in CLL.
+
+`survTAna5` produces distinguishable survival prognosis for the trio in MCL.
+
+`survTAna6` produces distinguishable survival prognosis for the trio in AML.
+
+`survTAna7` produces distinguishable survival prognosis for the trio in ALL.
+
 
 ## Citation and Contact
 
