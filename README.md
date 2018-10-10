@@ -39,7 +39,7 @@ Note that an installed matlab program is a must for the following steps.
 [Step3] Type *GANreproduce* in matlab window and select dialog boxes for reproducing
 ```
 
-Please see '''GANreproduce Quick Start Guide.pdf''' for more details.
+Please see **GANreproduce Quick Start Guide.pdf** for more details.
 
 ## Interpretation of data files DATAinGAN
 
