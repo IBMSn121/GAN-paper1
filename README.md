@@ -31,7 +31,7 @@ According to these findings, we can conduct multiple blood cancer prognosis and 
 
 Note that an installed matlab program is a must for the following steps.
 
-```javascript
+```
 * Step1 Download the two files, CODEinGAN and DATAinGAN, and put them in C:\
 
 * Step2 Open matlab program window and type *cd 'C:\CODEinGAN'* in it
