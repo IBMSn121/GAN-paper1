@@ -37,7 +37,7 @@ Note that an installed matlab program is a must for the following steps.
 
 * **_Step3_** Type `GANreproduce` in matlab window and select dialog boxes for reproducing
 
-Please see  `GANreproduce Quick Start Guide.pdf`  for more details of the GAN (gene association network) analysis.
+Please see  `GANreproduce Quick Start Guide.pdf`  for more details of the GAN (gene association network) related analysis.
 
 ## Interpretation of data files DATAinGAN
 
