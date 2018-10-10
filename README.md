@@ -11,7 +11,7 @@ Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 ## Introduction of the repository
 
 This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled: 
-```javascript
+```
 A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
 ```
 
@@ -37,29 +37,33 @@ Note that an installed matlab program is a must for the following steps.
 
 * **_Step3_** Type `GANreproduce` in matlab window and select dialog boxes for reproducing
 
-Please see  `GANreproduce Quick Start Guide.pdf`  for more details.
+Please see  `GANreproduce Quick Start Guide.pdf`  for more details of the GAN (gene association network) analysis.
 
 ## Interpretation of data files DATAinGAN
 
-`ltaDS10gnD1`
+`realDS10gn` is about down-stream genes of GAN used in GSE60 for real data analysis.
 
-`ltaDS10gnD2`
+`realUS5gn`  is about up-stream genes of GAN used in GSE60 for real data analysis.
 
-`ltaDS10gnD3`
+`ltaDS10gnD1` is about down-stream genes of GAN used in GSE4475 for linear trend analysis.
 
-`ltaDS10gnD4`
+`ltaDS10gnD2` is about down-stream genes of GAN used in GSE32918 for linear trend analysis.
 
-`ltaDS10gnD60`
+`ltaDS10gnD3` is about down-stream genes of GAN used in GSE31312 for linear trend analysis.
 
-`ltaUS5gnD1`
+`ltaDS10gnD4` is about down-stream genes of GAN used in GSE10846 for linear trend analysis.
 
-`ltaUS5gnD2`
+`ltaDS10gnD60` is about down-stream genes of GAN used in GSE60 for linear trend analysis.
 
-`ltaUS5gnD3`
+`ltaUS5gnD1` is about up-stream genes of GAN used in GSE4475 for linear trend analysis.
 
-`ltaUS5gnD4`
+`ltaUS5gnD2` is about up-stream genes of GAN used in GSE32918 for linear trend analysis.
 
-`ltaUS5gnD60`
+`ltaUS5gnD3` is about up-stream genes of GAN used in GSE31312 for linear trend analysis.
+
+`ltaUS5gnD4` is about up-stream genes of GAN used in GSE10846 for linear trend analysis.
+
+`ltaUS5gnD60` is about up-stream genes of GAN used in GSE60 for linear trend analysis.
 
 
 ## Interpretation of code files CODEinGAN
