@@ -31,13 +31,13 @@ According to these findings, we can conduct multiple blood cancer prognosis and 
 
 Note that an installed matlab program is a must for the following steps.
 
-* **_Step1_** Download the two files, `CODEinGAN` and `DATAinGAN`, and put them in C:\
+* **_Step1_** Download the two files, `DATAinGAN` and `CODEinGAN`, and put them in C:\
 
 * **_Step2_** Open matlab program window and type `cd 'C:\CODEinGAN'` in it
 
-* **_Step3_** Type `GANreproduce` in matlab window and select dialog boxes for reproducing
+* **_Step3_** Type `GANreproduce` in matlab window and select dialog boxes for reproducing the results
 
-Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of reproducing GAN (gene association network) related analysis.
+Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of reproducing the GAN (gene association network) related analysis.
 
 ## Interpretation of data file DATAinGAN
 
