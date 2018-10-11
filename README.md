@@ -10,7 +10,7 @@ Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 ## Introduction of the repository
 
-This repository contains the raw data and matlab codes to reproduce the results in the manusript entitled: 
+This repository contains the raw data and matlab codes to reproduce the results in the manuscript entitled: 
 ```
 A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
 ```
