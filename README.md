@@ -25,7 +25,7 @@ In this work, we analyzed lymphoma-related gene expression and clinical data and
 3. A common cause and a possible mechanism involving retro-differentiation for pan blood cancer was suggested.
 ```
 
-According to these findings, we can conduct multiple blood cancer prognosis and uncover tumor supressor functions of BACH2 which are much more important than previous thought.
+According to these findings, we can conduct multiple blood cancer prognosis and uncover tumor suppressor functions of BACH2 which are much more important than previous thought.
 
 ## Reproducing step
 
