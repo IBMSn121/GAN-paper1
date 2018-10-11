@@ -39,98 +39,98 @@ Note that an installed matlab program is a must for the following steps.
 
 Please see  `GANreproduce Quick Start Guide.pdf`  for more details of the GAN (gene association network) related analysis.
 
-## Interpretation of data files DATAinGAN
+## Interpretation of data file DATAinGAN
 
-`realDS10gn` is about down-stream genes of GAN used in GSE60 for real data analysis.
+`realDS10gn.txt` is about down-stream genes of GAN used in GSE60 for real data analysis.
 
-`realUS5gn`  is about up-stream genes of GAN used in GSE60 for real data analysis.
+`realUS5gn.txt`  is about up-stream genes of GAN used in GSE60 for real data analysis.
 
-`ltaDS10gnD1` is about down-stream genes of GAN used in GSE4475 for linear trend analysis.
+`ltaDS10gnD1.txt` is about down-stream genes of GAN used in GSE4475 for linear trend analysis.
 
-`ltaDS10gnD2` is about down-stream genes of GAN used in GSE32918 for linear trend analysis.
+`ltaDS10gnD2.txt` is about down-stream genes of GAN used in GSE32918 for linear trend analysis.
 
-`ltaDS10gnD3` is about down-stream genes of GAN used in GSE31312 for linear trend analysis.
+`ltaDS10gnD3.txt` is about down-stream genes of GAN used in GSE31312 for linear trend analysis.
 
-`ltaDS10gnD4` is about down-stream genes of GAN used in GSE10846 for linear trend analysis.
+`ltaDS10gnD4.txt` is about down-stream genes of GAN used in GSE10846 for linear trend analysis.
 
-`ltaDS10gnD60` is about down-stream genes of GAN used in GSE60 for linear trend analysis.
+`ltaDS10gnD60.txt` is about down-stream genes of GAN used in GSE60 for linear trend analysis.
 
-`ltaUS5gnD1` is about up-stream genes of GAN used in GSE4475 for linear trend analysis.
+`ltaUS5gnD1.txt` is about up-stream genes of GAN used in GSE4475 for linear trend analysis.
 
-`ltaUS5gnD2` is about up-stream genes of GAN used in GSE32918 for linear trend analysis.
+`ltaUS5gnD2.txt` is about up-stream genes of GAN used in GSE32918 for linear trend analysis.
 
-`ltaUS5gnD3` is about up-stream genes of GAN used in GSE31312 for linear trend analysis.
+`ltaUS5gnD3.txt` is about up-stream genes of GAN used in GSE31312 for linear trend analysis.
 
-`ltaUS5gnD4` is about up-stream genes of GAN used in GSE10846 for linear trend analysis.
+`ltaUS5gnD4.txt` is about up-stream genes of GAN used in GSE10846 for linear trend analysis.
 
-`ltaUS5gnD60` is about up-stream genes of GAN used in GSE60 for linear trend analysis.
+`ltaUS5gnD60.txt` is about up-stream genes of GAN used in GSE60 for linear trend analysis.
 
-`sDLBCL1` contains clinical survival and trio's expression data in GSE4475 (DLBLC).
+`sDLBCL1.txt` contains clinical survival and trio's expression data in GSE4475 (DLBLC).
 
-`sDLBCL2` contains clinical survival and trio's expression data in GSE32918 (DLBLC).
+`sDLBCL2.txt` contains clinical survival and trio's expression data in GSE32918 (DLBLC).
 
-`sDLBCL3` contains clinical survival and trio's expression data in GSE31312 (DLBLC).
+`sDLBCL3.txt` contains clinical survival and trio's expression data in GSE31312 (DLBLC).
 
-`sDLBCL4` contains clinical survival and trio's expression data in GSE10846 (DLBLC).
+`sDLBCL4.txt` contains clinical survival and trio's expression data in GSE10846 (DLBLC).
 
-`sOSBC2a` contains clinical survival and trio's expression data in GSE16131 (FL).
+`sOSBC2a.txt` contains clinical survival and trio's expression data in GSE16131 (FL).
 
-`sOSBC2b` contains clinical survival and trio's expression data in GSE66166 (FL).
+`sOSBC2b.txt` contains clinical survival and trio's expression data in GSE66166 (FL).
 
-`sOSBC3a` contains clinical survival and trio's expression data in GSE9782 (MM).
+`sOSBC3a.txt` contains clinical survival and trio's expression data in GSE9782 (MM).
 
-`sOSBC3b` contains clinical survival and trio's expression data in GSE24080 (MM).
+`sOSBC3b.txt` contains clinical survival and trio's expression data in GSE24080 (MM).
 
-`sOSBC4` contains clinical survival and trio's expression data in GSE22762 (CLL).
+`sOSBC4.txt` contains clinical survival and trio's expression data in GSE22762 (CLL).
 
-`sOSBC5` contains clinical survival and trio's expression data in Rosenwald (MCL).
+`sOSBC5.txt` contains clinical survival and trio's expression data in Rosenwald (MCL).
 
-`sOSBC6a` contains clinical survival and trio's expression data in TCGA (AML).
+`sOSBC6a.txt` contains clinical survival and trio's expression data in TCGA (AML).
 
-`sOSBC6b` contains clinical survival and trio's expression data in GSE12417 (AML).
+`sOSBC6b.txt` contains clinical survival and trio's expression data in GSE12417 (AML).
 
-`sOSBC7` contains clinical survival and trio's expression data in TARGET (ALL).
+`sOSBC7.txt` contains clinical survival and trio's expression data in TARGET (ALL).
 
 
-## Interpretation of code files CODEinGAN
+## Interpretation of code file CODEinGAN
 
-`GANreproduce` reproduces the results in the manuscript via **_user friendly dialog boxes_**.
+`GANreproduce.m` reproduces the results in the manuscript via **_user friendly dialog boxes_**.
 
 `logrankLF.m` generates log-rank test by package of [Fan Lin](https://www.mathworks.com/matlabcentral/fileexchange/20388).
 
 `LT3X2Ana.m` generates consistent linear trend analysis for the motif. 
 
-`realAna` generates real data analysis for the AWTE-induced GAN.
+`realAna.m` generates real data analysis for the AWTE-induced GAN.
 
-`regAWTE` returns regression model fitting by AWTE method.
+`regAWTE.m` returns regression model fitting by AWTE method.
 
-`regLasso1` returns regression model fitting by LASSO method.
+`regLasso1.m` returns regression model fitting by LASSO method.
 
-`rrHKB` returns regression model fitting by RR method.
+`rrHKB.m` returns regression model fitting by RR method.
 
-`simuAna` generates simulated data analysis for four different methods.
+`simuAna.m` generates simulated data analysis for four different methods.
 
-`simuAwAna` generates simulated data analysis for robustness of AWTE method.
+`simuAwAna.m` generates simulated data analysis for robustness of AWTE method.
 
-`survBAna1` generates clinical controversy for BACH2's role.
+`survBAna1.m` generates clinical controversy for BACH2's role.
 
-`survBAna2` generates BACH2 higher and survival better in patients with lower SPIB expression.
+`survBAna2.m` generates BACH2 higher and survival better in patients with lower SPIB expression.
 
-`survBAna3` generates BACH2 higher and survival worse in patients with higher SPIB expression.
+`survBAna3.m` generates BACH2 higher and survival worse in patients with higher SPIB expression.
 
-`survTAna1` produces distinguishable survival prognosis for the trio in DLBCL.
+`survTAna1.m` produces distinguishable survival prognosis for the trio in DLBCL.
 
-`survTAna2` produces distinguishable survival prognosis for the trio in FL.
+`survTAna2.m` produces distinguishable survival prognosis for the trio in FL.
 
-`survTAna3` produces distinguishable survival prognosis for the trio in MM.
+`survTAna3.m` produces distinguishable survival prognosis for the trio in MM.
 
-`survTAna4` produces distinguishable survival prognosis for the trio in CLL.
+`survTAna4.m` produces distinguishable survival prognosis for the trio in CLL.
 
-`survTAna5` produces distinguishable survival prognosis for the trio in MCL.
+`survTAna5.m` produces distinguishable survival prognosis for the trio in MCL.
 
-`survTAna6` produces distinguishable survival prognosis for the trio in AML.
+`survTAna6.m` produces distinguishable survival prognosis for the trio in AML.
 
-`survTAna7` produces distinguishable survival prognosis for the trio in ALL.
+`survTAna7.m` produces distinguishable survival prognosis for the trio in ALL.
 
 
 ## Citation and Contact
