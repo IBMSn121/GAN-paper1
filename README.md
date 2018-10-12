@@ -10,26 +10,16 @@ Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 ## Introduction of the repository
 
-This repository contains the raw data and matlab codes to reproduce the results in the manuscript entitled: 
+This repository contains the raw data and matlab codes to reproduce the results reported in the manuscript: 
 ```
 A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
 ```
 
-In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes that play crucial roles in blood cancers. There are three significant advances:
-
-```
-1. This motif was largely consistent across five different transcriptomic datasets.
-
-2. The inference from this motif provided a possible resolution to a clinically observed controversy on the effect of BACH2 on lymphoma.
-
-3. A common cause and a possible mechanism involving retro-differentiation for pan blood cancer was suggested.
-```
-
-According to these findings, we can conduct multiple blood cancer prognoses and uncover tumor suppressor functions of BACH2 which are much more important than previous thought.
+In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes and plays crucial roles in blood cancers. 
 
 ## Reproducing step
 
-Note that an installed matlab program is a must for the use of GANreproduce Package in the following steps.
+Note that an installed matlab program is required to use the GANreproduce Package in the following steps.
 
 * **_Step1_** Download the two files, `DATAinGAN` and `CODEinGAN`, and put them in C:\
 
@@ -114,9 +104,9 @@ Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of
 
 `survBAna1.m` generates clinical controversy for BACH2's role.
 
-`survBAna2.m` generates BACH2 higher and survival better in patients with lower SPIB expression.
+`survBAna2.m` generates results of BACH2 higher and survival better in patients with lower SPIB expression.
 
-`survBAna3.m` generates BACH2 higher and survival worse in patients with higher SPIB expression.
+`survBAna3.m` generates results of BACH2 higher and survival worse in patients with higher SPIB expression.
 
 `survTAna1.m` produces distinguishable survival prognosis for the trio in DLBCL.
 
@@ -135,4 +125,4 @@ Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of
 
 ## Citation and Contact
 
-A manuscript detailing our work has been submitted and the citation will be provided later on. Any question or suggestion please feel free to contact [WQ Fang](mailto:deleapoli@gmail.com) or [MJ Hwang](mailto:mjhwang@ibms.sinica.edu.tw).
+A manuscript detailing our work has been submitted and the citation will be provided later. Any question or suggestion please feel free to contact [WQ Fang](mailto:deleapoli@gmail.com) or [MJ Hwang](mailto:mjhwang@ibms.sinica.edu.tw).
