@@ -12,14 +12,6 @@ J=JA(gg); W=TW(1:J,:); Y0=TY0(1:J,:); BpLSE=inv(W'*W)*W'*Y0;
 BpLaso=BpLSE; BpRR=BpLSE; BAWTE=BpLSE; for tt=1:q;
 BpLaso(:,tt)=regLasso1(W, Y0(:,tt)); BpRR(:,tt)=rrHKB(W, Y0(:,tt));
 [Beta,Pv] = regAWTE(W, Y0(:,tt)); BAWTE(:,tt)=Beta; end; AWTE=BAWTE; 
-
-%{
-aaa=[sum( sum(abs(BpLSE-BB)) ) sum( sum(abs(BpRR-BB)) ) sum( sum(abs(BB-AWTE)) ) sum( sum(abs(BB-BpLaso)) )];
-TE=(abs(BB)>0); IEAWTE=(abs(AWTE)>emso); IEtAWTE=(IEAWTE>0&TE>0);
-IEBpRR=(abs(BpRR)>emso); IEtBpRR=(IEBpRR>0&TE>0); IEBpLSE=(abs(BpLSE)>emso); IEtBpLSE=(IEBpLSE>0&TE>0);
-IEBpLaso=(abs(BpLaso)>emso); IEtBpLaso=(IEBpLaso>0&TE>0);
-%}
-
 TE=(abs(BB)>0); veee=[0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45]; aaww=ones(1,9); for jj=1:9; emso=veee(jj); 
 IEAWTE=(abs(AWTE)>emso); IEtAWTE=(IEAWTE>0&TE>0); NEtAWTE=(IEAWTE==0&TE==0);
 aaww(jj)=(sum( sum(IEtAWTE) )/sum( sum(TE) )) + (sum( sum(NEtAWTE) )/sum( sum(1-TE) )); end; emso=veee(find(aaww==max(aaww),1)); 
