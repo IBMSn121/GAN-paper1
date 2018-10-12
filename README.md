@@ -29,7 +29,7 @@ According to these findings, we can conduct multiple blood cancer prognoses and 
 
 ## Reproducing step
 
-Note that an installed matlab program is a must for the following steps.
+Note that an installed matlab program is a must for the use of GANreproduce Package in the following steps.
 
 * **_Step1_** Download the two files, `DATAinGAN` and `CODEinGAN`, and put them in C:\
 
