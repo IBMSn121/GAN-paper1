@@ -15,7 +15,7 @@ This repository contains the raw data and matlab codes to reproduce the results 
 A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers.
 ```
 
-In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes and plays crucial roles in blood cancers. 
+In this work, we analyzed lymphoma-related gene expression and clinical data and identified a regulatory motif of germinal center B cell genes. This motif involves a trio of genes and the regulation of two oncogenes. The motif was shown to play crucial roles in blood cancers. 
 
 ## Reproducing step
 
@@ -25,7 +25,7 @@ Note that an installed matlab program is required to use the GANreproduce Packag
 
 * **_Step2_** Open matlab program window and type `cd 'C:\CODEinGAN'` in it
 
-* **_Step3_** Type `GANreproduce` in matlab window and select dialog boxes for reproducing the results
+* **_Step3_** Type `GANreproduce` in the matlab window and select dialog boxes to reproduce the results
 
 Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of reproducing the GAN (gene association network) related analyses.
 
