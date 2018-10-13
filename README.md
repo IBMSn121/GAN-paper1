@@ -1,12 +1,12 @@
 # A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers
 
-Wei-Quan Fang\*, Walt Yu-Le Wu†, Ming-Jing Hwang\*
+Wei-Quan Fang\*, Walt Yu-Le Wu?, Ming-Jing Hwang\*
  
 Institute of Biomedical Sciences, Academia Sinica, Taipei, Taiwan, R.O.C.
 
 \*Corresponding authors. 
 
-†Present address: European Molecular Biology Laboratory, Heidelberg, Germany.
+?Present address: European Molecular Biology Laboratory, Heidelberg, Germany.
 
 ## Introduction of the repository
 
@@ -31,9 +31,9 @@ Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of
 
 ## Interpretation of data file DATAinGAN
 
-`realDS10gn.txt` is about down-stream genes of GAN used in GSE60 for real data analysis.
+`realDS10gn.txt` is about down-stream genes of GAN used in GSE60 for analysis of the actual lymphoma data.
 
-`realUS5gn.txt`  is about up-stream genes of GAN used in GSE60 for real data analysis.
+`realUS5gn.txt`  is about up-stream genes of GAN used in GSE60 for analysis of the actual lymphoma data.
 
 `ltaDS10gnD1.txt` is about down-stream genes of GAN used in GSE4475 for linear trend analysis.
 
@@ -90,7 +90,7 @@ Please see `GANreproduce Quick Start Guide.pdf` for more details and examples of
 
 `LT3X2Ana.m` generates consistent linear trend analysis for the motif. 
 
-`realAna.m` generates real data analysis for the AWTE-induced GAN.
+`realAna.m` generates analysis of the actual lymphoma data for the AWTE-induced GAN.
 
 `regAWTE.m` returns regression model fitting by AWTE method.
 
