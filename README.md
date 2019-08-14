@@ -1,4 +1,4 @@
-# A trio of genes in germinal center B cells mediates the pathogenesis of blood cancers
+# Transcriptomic and clinical evidence for a trio of genes in germinal center B cells mediating the pathogenesis of blood cancers
 
 Wei-Quan Fang\*, Walt Yu-Le Wu†, Ming-Jing Hwang\*
  
